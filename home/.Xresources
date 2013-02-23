@@ -1,0 +1,37 @@
+!Droid Sans Mono
+dzen2.font:         xft:Droid Sans Mono for Powerline:size=8
+
+URxvt*font:         xft:Droid Sans Mono for Powerline:size=8
+URxvt*boldFont:     xft:Droid Sans Mono for Powerline:bold:size=9
+!URxvt*font:        xft:Droid Sans Mono for Powerline:bold:size=9
+URxvt*scrollBar:    True
+URxvt*scrollstyle:  plain
+
+! suggested config
+! keyboard
+URxvt*perl-ext-common:      default,clipboard,url-select 
+URxvt*url-select.launcher:  chromium
+URxvt*url-select.underline: true
+URxvt*keysym.M-u:           perl:url-select:select_next
+URxvt*keysym.M-Escape:      perl:keyboard-select:activate
+URxvt*keysym.M-s:           perl:keyboard-select:search
+
+Xcursor*theme: Vanilla-DMZ
+!Xcursor*size:  16
+
+Xft*dpi:        96
+Xft*antialias:  true
+Xft*rgba:       rgb
+Xft*autohint:   false
+Xft*hinting:    false
+!Xft*hintstyle:  hintfull
+Xft*lcdfilter:  lcddefault
+
+!Xft*autohint:   0
+!Xft*lcdfilter:  lcddefault
+!Xft*hintstyle:  hintfull
+!Xft*hinting:    0
+!Xft*antialias:  0
+!Xft*dpi:        96
+!Xft*rgba:       none
+
